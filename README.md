@@ -121,6 +121,4 @@ Set up the Login feature using Flutter BLoC pattern. Include empty state, event,
 - Check in with the team on any architectural or package decisions before finalizing.
 
 
-[https://mylogin.crfund.co.za/login](https://mylogin.crfund.co.za/login)  
-mobile: 0829063676  
-password: 6658494
+
