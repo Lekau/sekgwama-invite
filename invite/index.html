@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>An Invitation · A Lifetime Worth Celebrating</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Italianno&family=Pinyon+Script&family=Cormorant+Infant:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: "Cormorant Garamond", "Cormorant Infant", Georgia, serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:root,
+[data-palette="maroon"] {
+  --bg:        #7e2f3c;
+  --bg-soft:   #8d3e4b;
+  --bg-deep:   #5a1d28;
+  --paper:     #fbf3e3;
+  --blush:     #e8c0b2;
+  --maroon:    #5a1a25;
+  --maroon-deep: #3d0e16;
+  --maroon-soft: rgba(90, 26, 37, 0.82);
+  --gold:      #e0bf7e;
+  --gold-soft: #efd4a0;
+  --ink:       #fbf2e0;
+  --ink-soft:  rgba(251, 242, 224, 0.74);
+  --display:      #fbf2e0;
+  --display-soft: rgba(224, 191, 126, 0.92);
+  --card-ink:      #3a1f1d;
+  --card-ink-soft: rgba(58, 31, 29, 0.62);
+  --hairline:      rgba(224, 191, 126, 0.5);
+  --hairline-soft: rgba(224, 191, 126, 0.26);
+  --countdown-bg:  rgba(251, 242, 224, 0.08);
+}
+
+[data-palette="cream"] {
+  --bg:        #f7efe1;
+  --bg-soft:   #f0e3cf;
+  --bg-deep:   #e8d4b8;
+  --paper:     #fbf6ec;
+  --blush:     #e8c8c0;
+  --maroon:    #6e1f2a;
+  --maroon-deep: #4d141d;
+  --maroon-soft: rgba(110, 31, 42, 0.78);
+  --gold:      #b8956a;
+  --gold-soft: #d6b889;
+  --ink:       #3a2520;
+  --ink-soft:  rgba(58, 37, 32, 0.62);
+  --display:      #6e1f2a;
+  --display-soft: rgba(110, 31, 42, 0.78);
+  --card-ink:      #3a2520;
+  --card-ink-soft: rgba(58, 37, 32, 0.62);
+  --hairline:      rgba(110, 31, 42, 0.22);
+  --hairline-soft: rgba(110, 31, 42, 0.14);
+  --countdown-bg:  rgba(255, 255, 255, 0.42);
+}
+
+[data-palette="blush"] {
+  --bg:        #f0c9bd;
+  --bg-soft:   #e8b4a4;
+  --bg-deep:   #d99c89;
+  --paper:     #fbecde;
+  --blush:     #e8c0b6;
+  --maroon:    #6a1d2a;
+  --maroon-deep: #481018;
+  --maroon-soft: rgba(106, 29, 42, 0.8);
+  --gold:      #a87a52;
+  --gold-soft: #c89e74;
+  --ink:       #3a1f1d;
+  --ink-soft:  rgba(58, 31, 29, 0.66);
+  --display:      #5a1620;
+  --display-soft: rgba(90, 22, 32, 0.78);
+  --card-ink:      #3a1f1d;
+  --card-ink-soft: rgba(58, 31, 29, 0.62);
+  --hairline:      rgba(106, 29, 42, 0.28);
+  --hairline-soft: rgba(106, 29, 42, 0.16);
+  --countdown-bg:  rgba(255, 250, 240, 0.4);
+}
+
+[data-palette="ivory"] {
+  --bg:        #fbf7ef;
+  --bg-soft:   #f4ecdc;
+  --bg-deep:   #ecdfc4;
+  --paper:     #fefbf4;
+  --blush:     #ebd0c8;
+  --maroon:    #7a2837;
+  --maroon-deep: #561522;
+  --maroon-soft: rgba(122, 40, 55, 0.78);
+  --gold:      #a07640;
+  --gold-soft: #c89c5e;
+  --ink:       #3d2a26;
+  --ink-soft:  rgba(61, 42, 38, 0.6);
+  --display:      #7a2837;
+  --display-soft: rgba(122, 40, 55, 0.78);
+  --card-ink:      #3d2a26;
+  --card-ink-soft: rgba(61, 42, 38, 0.6);
+  --hairline:      rgba(160, 118, 64, 0.32);
+  --hairline-soft: rgba(160, 118, 64, 0.18);
+  --countdown-bg:  rgba(255, 250, 240, 0.5);
+}
+
+.script { font-family: "Italianno", "Pinyon Script", cursive; font-weight: 400; }
+[data-script="pinyon"] .script { font-family: "Pinyon Script", "Italianno", cursive; }
+[data-script="italic"] .script {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.eyebrow {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--display-soft);
+}
+
+.smallcaps {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: 0.22em;
+  color: var(--display-soft);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.86rem;
+}
+
+h1, h2, h3 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 400; margin: 0; }
+
+.page {
+  min-height: 100vh;
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse 70% 50% at 18% 0%, var(--bg-soft) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 45% at 100% 25%, var(--bg-soft) 0%, transparent 55%),
+    radial-gradient(ellipse 80% 55% at 0% 100%, var(--bg-deep) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 100% 100%, var(--bg-deep) 0%, transparent 55%);
+  position: relative;
+  overflow: hidden;
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 12% 8%,  var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 88% 14%, var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 22% 32%, var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 76% 41%, var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 8% 58%,  var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 92% 66%, var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 30% 78%, var(--gold-soft) 0.5px, transparent 1.5px),
+    radial-gradient(circle at 68% 88%, var(--gold-soft) 0.5px, transparent 1.5px);
+  opacity: 0.5;
+  z-index: 0;
+}
+.page > * { position: relative; z-index: 1; }
+
+.section { max-width: 980px; margin: 0 auto; padding: 96px 32px; position: relative; }
+.section--narrow { max-width: 720px; }
+@media (max-width: 720px) { .section { padding: 72px 22px; } }
+
+.ornament { display: flex; align-items: center; justify-content: center; gap: 14px; color: var(--gold); }
+.ornament .rule { flex: 0 1 100px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold-soft) 30%, var(--gold-soft) 70%, transparent); }
+.ornament svg { display: block; }
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  padding: 120px 32px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__corner { position: absolute; width: 360px; height: 360px; pointer-events: none; opacity: 0.6; }
+.hero__corner--tl { top: 0; left: 0; }
+.hero__corner--br { bottom: 0; right: 0; transform: rotate(180deg); }
+@media (max-width: 720px) { .hero__corner { width: 220px; height: 220px; opacity: 0.5; } }
+
+.hero__watermark {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Italianno", cursive;
+  font-size: clamp(220px, 30vw, 420px);
+  color: var(--gold); opacity: 0.06; line-height: 1;
+  pointer-events: none; z-index: 1; white-space: nowrap; letter-spacing: -0.04em;
+}
+
+.card-corner { position: absolute; width: 140px; height: 140px; pointer-events: none; opacity: 0.55; }
+.card-corner--tl { top: -8px; left: -8px; }
+.card-corner--br { bottom: -8px; right: -8px; transform: rotate(180deg); }
+.card-corner--tr { top: -8px; right: -8px; transform: scaleX(-1); }
+.card-corner--bl { bottom: -8px; left: -8px; transform: scaleY(-1); }
+@media (max-width: 600px) { .card-corner { width: 88px; height: 88px; } }
+
+.section-orn {
+  display: flex; align-items: center; justify-content: center;
+  gap: 18px; margin: 20px auto 0; color: var(--gold);
+  max-width: 560px; padding: 0 24px;
+}
+.section-orn .rule { flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--hairline) 30%, var(--hairline) 70%, transparent); }
+.section-orn__diamond { width: 8px; height: 8px; background: var(--gold); transform: rotate(45deg); opacity: 0.7; }
+.section-orn__diamond--small { width: 5px; height: 5px; }
+
+.hero__inner { max-width: 760px; z-index: 2; position: relative; }
+.hero__eyebrow { margin-bottom: 28px; }
+.hero__amp {
+  font-family: "Italianno", cursive;
+  font-size: clamp(56px, 8.5vw, 104px);
+  color: var(--gold); line-height: 1;
+  display: inline-block; vertical-align: -0.06em; margin: 0 0.04em; font-weight: 400;
+}
+.hero__names {
+  font-size: clamp(48px, 7.2vw, 96px); line-height: 1.3;
+  color: var(--display); margin: 8px 0 56px; font-weight: 400;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+[data-script="pinyon"] .hero__names { font-size: clamp(46px, 7.5vw, 92px); line-height: 1.1; }
+[data-script="italic"] .hero__names { font-size: clamp(48px, 7.5vw, 92px); letter-spacing: 0.01em; }
+.hero__lede { font-style: italic; font-size: 1.18rem; color: var(--ink-soft); max-width: 540px; margin: 0 auto 36px; line-height: 1.45; }
+.hero__occasion { display: flex; flex-direction: column; align-items: center; gap: 18px; margin: 36px 0 44px; }
+.hero__occasion-row { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; justify-content: center; font-family: "Cormorant Garamond", Georgia, serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.92rem; color: var(--ink); }
+.hero__occasion-row .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); display: inline-block; }
+.hero__date { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.05rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--display); margin-top: 8px; }
+
+.countdown { display: flex; gap: 18px; justify-content: center; margin-top: 44px; }
+.countdown__cell {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  min-width: 96px; padding: 22px 10px 16px;
+  background: var(--countdown-bg); border: 0.5px solid var(--hairline-soft);
+  border-radius: 2px; position: relative;
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.countdown__cell::before, .countdown__cell::after { content: ""; position: absolute; inset: 4px; border: 0.5px solid var(--hairline-soft); pointer-events: none; }
+.countdown__num { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 300; font-size: 2.6rem; line-height: 1; color: var(--display); font-variant-numeric: tabular-nums; }
+.countdown__lbl { font-family: "Cormorant Garamond", Georgia, serif; font-size: 0.72rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink-soft); }
+@media (max-width: 600px) { .countdown { gap: 10px; } .countdown__cell { min-width: 64px; padding: 14px 4px 10px; } .countdown__num { font-size: 1.8rem; } }
+
+.sec-head { text-align: center; margin-bottom: 56px; }
+.sec-head__eyebrow { margin-bottom: 14px; display: inline-block; }
+.sec-head__title { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.6vw, 52px); color: var(--display); line-height: 1.1; }
+.sec-head__sub { margin-top: 16px; color: var(--ink-soft); font-style: italic; font-size: 1.05rem; }
+
+.details { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--hairline-soft); border: 1px solid var(--hairline-soft); position: relative; }
+.details__cell { background: var(--paper); padding: 40px 32px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.details__icon { color: var(--gold); margin-bottom: 4px; }
+.details__label { font-family: "Cormorant Garamond", Georgia, serif; letter-spacing: 0.28em; text-transform: uppercase; font-size: 0.74rem; color: var(--maroon); font-weight: 500; }
+.details__value { font-size: 1.14rem; color: var(--card-ink); line-height: 1.5; }
+.details__note { font-style: italic; font-size: 0.96rem; color: var(--card-ink-soft); margin-top: 4px; }
+@media (max-width: 640px) { .details { grid-template-columns: 1fr; } }
+
+.map-card { background: var(--paper); border: 1px solid var(--hairline-soft); display: grid; grid-template-columns: 1.2fr 1fr; overflow: hidden; position: relative; }
+.map-card__frame { position: relative; min-height: 420px; background: var(--bg-soft); }
+.map-card__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; filter: saturate(0.78) sepia(0.18) hue-rotate(-12deg); }
+.map-card__body { padding: 44px 36px; display: flex; flex-direction: column; justify-content: center; gap: 18px; }
+.map-card__title { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: 1.7rem; color: var(--maroon); line-height: 1.15; }
+.map-card__addr { color: var(--card-ink); line-height: 1.55; font-size: 1.05rem; }
+.map-card__link { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; align-self: flex-start; padding: 10px 18px; border: 1px solid var(--maroon); color: var(--maroon); text-decoration: none; font-family: "Cormorant Garamond", Georgia, serif; letter-spacing: 0.22em; text-transform: uppercase; font-size: 0.78rem; transition: all .2s ease; }
+.map-card__link:hover { background: var(--maroon); color: var(--paper); }
+@media (max-width: 760px) { .map-card { grid-template-columns: 1fr; } .map-card__frame { min-height: 280px; } .map-card__body { padding: 32px 26px; } }
+
+.rsvp { background: var(--paper); border: 1px solid var(--hairline-soft); padding: 56px 56px 48px; position: relative; overflow: hidden; }
+.rsvp::before, .rsvp::after { content: ""; position: absolute; inset: 8px; border: 0.5px solid var(--hairline-soft); pointer-events: none; }
+.rsvp__progress { display: flex; align-items: center; gap: 8px; justify-content: center; margin-bottom: 36px; }
+.rsvp__progress .step { width: 28px; height: 1px; background: var(--hairline); transition: background .3s ease, height .3s ease; }
+.rsvp__progress .step.active { background: var(--maroon); height: 2px; }
+.rsvp__progress .step.done { background: var(--gold); }
+.rsvp__stage { min-height: 320px; display: flex; flex-direction: column; }
+
+.step-q { text-align: center; margin-bottom: 32px; }
+.step-q__eyebrow { font-family: "Cormorant Garamond", Georgia, serif; letter-spacing: 0.32em; text-transform: uppercase; font-size: 0.74rem; color: var(--gold); margin-bottom: 12px; }
+.step-q__title { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: clamp(26px, 3.6vw, 36px); color: var(--maroon); line-height: 1.18; }
+.step-q__sub { margin-top: 10px; color: var(--card-ink-soft); font-style: italic; }
+
+.field { width: 100%; max-width: 460px; margin: 0 auto; display: flex; flex-direction: column; gap: 8px; }
+.field input, .field textarea { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.2rem; color: var(--card-ink); background: transparent; border: 0; border-bottom: 1px solid var(--hairline); padding: 12px 4px; text-align: center; width: 100%; outline: none; transition: border-color .2s ease; }
+.field input:focus, .field textarea:focus { border-color: var(--maroon); }
+.field textarea { resize: none; text-align: left; border: 1px solid var(--hairline); padding: 14px 16px; min-height: 120px; font-style: italic; font-size: 1.05rem; line-height: 1.5; }
+.field__hint { font-size: 0.82rem; color: var(--card-ink-soft); font-style: italic; text-align: center; }
+
+.choice-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; max-width: 520px; margin: 12px auto 0; }
+.choice { appearance: none; border: 1px solid var(--hairline); background: transparent; color: var(--card-ink); padding: 28px 18px; text-align: center; cursor: pointer; transition: all .25s ease; font-family: "Cormorant Garamond", Georgia, serif; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.choice:hover { border-color: var(--maroon-soft); background: rgba(255,255,255,0.4); }
+.choice.selected { border-color: var(--maroon); background: var(--maroon); color: var(--paper); }
+.choice.selected .choice__sub { color: rgba(255,255,255,0.8); }
+.choice__head { font-size: 1.4rem; font-style: italic; }
+.choice__sub { font-size: 0.78rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--card-ink-soft); }
+
+.counter { display: flex; align-items: center; justify-content: center; gap: 28px; margin: 12px auto 0; }
+.counter__btn { appearance: none; width: 52px; height: 52px; border-radius: 50%; border: 1px solid var(--hairline); background: transparent; color: var(--maroon); font-size: 1.4rem; font-family: "Cormorant Garamond", Georgia, serif; cursor: pointer; transition: all .2s ease; display: flex; align-items: center; justify-content: center; }
+.counter__btn:hover:not(:disabled) { background: var(--maroon); color: var(--paper); border-color: var(--maroon); }
+.counter__btn:disabled { opacity: 0.35; }
+.counter__num { font-family: "Cormorant Garamond", Georgia, serif; font-size: 4.2rem; font-weight: 300; color: var(--maroon); min-width: 90px; text-align: center; font-variant-numeric: tabular-nums; line-height: 1; }
+.counter__lbl { text-align: center; margin-top: 10px; letter-spacing: 0.22em; text-transform: uppercase; font-size: 0.78rem; color: var(--card-ink-soft); }
+
+.party-row { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 18px; max-width: 540px; margin: 0 auto; }
+.party-row__div { width: 1px; height: 110px; background: linear-gradient(180deg, transparent, var(--hairline) 30%, var(--hairline) 70%, transparent); }
+.party-counter { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.party-counter__lbl { font-family: "Cormorant Garamond", Georgia, serif; letter-spacing: 0.28em; text-transform: uppercase; font-size: 0.78rem; color: var(--maroon); font-weight: 500; margin-bottom: 4px; }
+.party-counter .counter { gap: 18px; margin: 0; }
+.party-counter .counter__btn { width: 42px; height: 42px; font-size: 1.2rem; }
+.party-counter .counter__num { font-size: 3rem; min-width: 60px; }
+.party-counter__sub { font-style: italic; font-size: 0.84rem; color: var(--card-ink-soft); margin-top: 2px; }
+.party-total { text-align: center; margin-top: 22px; font-style: italic; color: var(--card-ink-soft); font-size: 1rem; }
+.party-total b { font-style: normal; font-weight: 500; color: var(--maroon); font-size: 1.1rem; }
+@media (max-width: 540px) { .party-row { grid-template-columns: 1fr; gap: 24px; } .party-row__div { width: 60%; height: 1px; justify-self: center; background: linear-gradient(90deg, transparent, var(--hairline), transparent); } }
+
+.rsvp__nav { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; gap: 16px; }
+.btn { appearance: none; border: 1px solid var(--maroon); background: var(--maroon); color: var(--paper); font-family: "Cormorant Garamond", Georgia, serif; letter-spacing: 0.28em; text-transform: uppercase; font-size: 0.78rem; padding: 14px 26px; cursor: pointer; transition: all .2s ease; }
+.btn:hover:not(:disabled) { background: var(--maroon-deep); border-color: var(--maroon-deep); }
+.btn:disabled { opacity: 0.4; }
+.btn--ghost { background: transparent; color: var(--maroon); }
+.btn--ghost:hover:not(:disabled) { background: rgba(110, 31, 42, 0.08); color: var(--maroon); }
+
+.confirm { text-align: center; padding: 12px 0 8px; }
+.confirm__crest { width: 64px; height: 64px; margin: 0 auto 22px; color: var(--gold); }
+.confirm__title { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: clamp(28px, 4vw, 42px); color: var(--maroon); margin-bottom: 14px; line-height: 1.15; }
+.confirm__body { color: var(--card-ink); max-width: 460px; margin: 0 auto 24px; font-size: 1.08rem; line-height: 1.55; font-style: italic; }
+.confirm__details { display: inline-flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--hairline-soft); border-bottom: 1px solid var(--hairline-soft); padding: 18px 36px; margin: 8px 0 24px; font-size: 0.94rem; color: var(--card-ink-soft); }
+.confirm__details b { color: var(--maroon); font-weight: 500; }
+
+.gift { text-align: center; max-width: 540px; margin: 0 auto; padding: 64px 24px 56px; border-top: 1px solid var(--hairline-soft); border-bottom: 1px solid var(--hairline-soft); }
+.gift__orn { color: var(--gold); margin-bottom: 18px; }
+.gift__text { font-style: italic; font-size: 1.12rem; color: var(--ink); line-height: 1.55; }
+.gift__text em { font-family: "Italianno", cursive; font-style: normal; font-size: 1.6em; color: var(--maroon); vertical-align: -0.15em; }
+
+.footer { text-align: center; padding: 64px 24px 80px; color: var(--ink-soft); }
+.footer__names { font-family: "Italianno", cursive; font-size: 3rem; color: var(--display); line-height: 1; margin-bottom: 18px; }
+[data-script="pinyon"] .footer__names { font-family: "Pinyon Script", cursive; font-size: 2.1rem; }
+[data-script="italic"] .footer__names { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: 2rem; }
+.footer__contact { font-size: 0.94rem; letter-spacing: 0.08em; margin-top: 8px; }
+.footer__contact b { color: var(--display); font-weight: 500; }
+
+@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.fade-in { animation: fade-up .55s ease both; }
+
+/* ───────────── mobile ───────────── */
+@media (max-width: 480px) {
+  body { font-size: 17px; }
+
+  .hero { padding: 80px 20px 56px; min-height: 100svh; }
+  .hero__lede { font-size: 1rem; }
+  .hero__occasion { margin: 22px 0 28px; gap: 12px; }
+  .hero__occasion-row { letter-spacing: 0.1em; font-size: 0.8rem; gap: 12px; }
+  .hero__date { letter-spacing: 0.16em; font-size: 0.88rem; }
+
+  .countdown { gap: 7px; margin-top: 28px; }
+  .countdown__cell { min-width: 0; flex: 1; padding: 12px 2px 10px; }
+  .countdown__num { font-size: 1.55rem; }
+  .countdown__lbl { font-size: 0.6rem; letter-spacing: 0.14em; }
+
+  .section { padding: 52px 16px; }
+  .section--narrow { padding: 52px 16px; }
+  .sec-head { margin-bottom: 32px; }
+
+  .details__cell { padding: 26px 18px; }
+
+  .rsvp { padding: 28px 18px 24px; }
+  .rsvp::before, .rsvp::after { inset: 5px; }
+  .rsvp__stage { min-height: 240px; }
+
+  .choice-row { grid-template-columns: 1fr; max-width: 100%; }
+  .choice { padding: 20px 16px; }
+
+  .rsvp__nav { flex-direction: column-reverse; gap: 10px; }
+  .rsvp__nav .btn { width: 100%; text-align: center; }
+  .btn { padding: 16px 20px; }
+
+  .confirm__details { padding: 16px 18px; width: 100%; box-sizing: border-box; }
+
+  .map-card__body { padding: 24px 18px; }
+
+  .footer { padding: 44px 20px 60px; }
+  .footer__names { font-size: 2.4rem; }
+}
+  </style>
+</head>
+<body style="background-color: #7e2f3c">
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <!-- tweaks-panel -->
+  <script type="text/babel">
+const __TWEAKS_STYLE = `
+  .twk-panel{position:fixed;right:16px;bottom:16px;z-index:2147483646;width:280px;
+    max-height:calc(100vh - 32px);display:flex;flex-direction:column;
+    transform:scale(var(--dc-inv-zoom,1));transform-origin:bottom right;
+    background:rgba(250,249,247,.78);color:#29261b;
+    -webkit-backdrop-filter:blur(24px) saturate(160%);backdrop-filter:blur(24px) saturate(160%);
+    border:.5px solid rgba(255,255,255,.6);border-radius:14px;
+    box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 12px 40px rgba(0,0,0,.18);
+    font:11.5px/1.4 ui-sans-serif,system-ui,-apple-system,sans-serif;overflow:hidden}
+  .twk-hd{display:flex;align-items:center;justify-content:space-between;
+    padding:10px 8px 10px 14px;cursor:move;user-select:none}
+  .twk-hd b{font-size:12px;font-weight:600;letter-spacing:.01em}
+  .twk-x{appearance:none;border:0;background:transparent;color:rgba(41,38,27,.55);
+    width:22px;height:22px;border-radius:6px;cursor:pointer;font-size:13px;line-height:1}
+  .twk-x:hover{background:rgba(0,0,0,.06);color:#29261b}
+  .twk-body{padding:2px 14px 14px;display:flex;flex-direction:column;gap:10px;
+    overflow-y:auto;overflow-x:hidden;min-height:0;
+    scrollbar-width:thin;scrollbar-color:rgba(0,0,0,.15) transparent}
+  .twk-row{display:flex;flex-direction:column;gap:5px}
+  .twk-row-h{flex-direction:row;align-items:center;justify-content:space-between;gap:10px}
+  .twk-lbl{display:flex;justify-content:space-between;align-items:baseline;color:rgba(41,38,27,.72)}
+  .twk-lbl>span:first-child{font-weight:500}
+  .twk-val{color:rgba(41,38,27,.5);font-variant-numeric:tabular-nums}
+  .twk-sect{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+    color:rgba(41,38,27,.45);padding:10px 0 0}
+  .twk-sect:first-child{padding-top:0}
+  .twk-field{appearance:none;width:100%;height:26px;padding:0 8px;
+    border:.5px solid rgba(0,0,0,.1);border-radius:7px;
+    background:rgba(255,255,255,.6);color:inherit;font:inherit;outline:none}
+  .twk-field:focus{border-color:rgba(0,0,0,.25);background:rgba(255,255,255,.85)}
+  select.twk-field{padding-right:22px}
+  .twk-seg{position:relative;display:flex;padding:2px;border-radius:8px;background:rgba(0,0,0,.06);user-select:none}
+  .twk-seg-thumb{position:absolute;top:2px;bottom:2px;border-radius:6px;
+    background:rgba(255,255,255,.9);box-shadow:0 1px 2px rgba(0,0,0,.12);
+    transition:left .15s cubic-bezier(.3,.7,.4,1),width .15s}
+  .twk-seg button{appearance:none;position:relative;z-index:1;flex:1;border:0;
+    background:transparent;color:inherit;font:inherit;font-weight:500;min-height:22px;
+    border-radius:6px;cursor:pointer;padding:4px 6px;line-height:1.2}
+  .twk-toggle{position:relative;width:32px;height:18px;border:0;border-radius:999px;
+    background:rgba(0,0,0,.15);transition:background .15s;cursor:pointer;padding:0}
+  .twk-toggle[data-on="1"]{background:#34c759}
+  .twk-toggle i{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;
+    background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .15s}
+  .twk-toggle[data-on="1"] i{transform:translateX(14px)}
+  .twk-btn{appearance:none;height:26px;padding:0 12px;border:0;border-radius:7px;
+    background:rgba(0,0,0,.78);color:#fff;font:inherit;font-weight:500;cursor:pointer}
+  .twk-btn:hover{background:rgba(0,0,0,.88)}
+  .twk-btn.secondary{background:rgba(0,0,0,.06);color:inherit}
+`;
+
+function useTweaks(defaults) {
+  const [values, setValues] = React.useState(defaults);
+  const setTweak = React.useCallback((keyOrEdits, val) => {
+    const edits = typeof keyOrEdits === 'object' && keyOrEdits !== null
+      ? keyOrEdits : { [keyOrEdits]: val };
+    setValues((prev) => ({ ...prev, ...edits }));
+    window.parent.postMessage({ type: '__edit_mode_set_keys', edits }, '*');
+    window.dispatchEvent(new CustomEvent('tweakchange', { detail: edits }));
+  }, []);
+  return [values, setTweak];
+}
+
+function TweaksPanel({ title = 'Tweaks', children }) {
+  const [open, setOpen] = React.useState(false);
+  const dragRef = React.useRef(null);
+  const offsetRef = React.useRef({ x: 16, y: 16 });
+  const PAD = 16;
+
+  const clampToViewport = React.useCallback(() => {
+    const panel = dragRef.current;
+    if (!panel) return;
+    const w = panel.offsetWidth, h = panel.offsetHeight;
+    const maxRight = Math.max(PAD, window.innerWidth - w - PAD);
+    const maxBottom = Math.max(PAD, window.innerHeight - h - PAD);
+    offsetRef.current = {
+      x: Math.min(maxRight, Math.max(PAD, offsetRef.current.x)),
+      y: Math.min(maxBottom, Math.max(PAD, offsetRef.current.y)),
+    };
+    panel.style.right = offsetRef.current.x + 'px';
+    panel.style.bottom = offsetRef.current.y + 'px';
+  }, []);
+
+  React.useEffect(() => {
+    if (!open) return;
+    clampToViewport();
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(clampToViewport) : null;
+    if (ro) { ro.observe(document.documentElement); return () => ro.disconnect(); }
+    window.addEventListener('resize', clampToViewport);
+    return () => window.removeEventListener('resize', clampToViewport);
+  }, [open, clampToViewport]);
+
+  React.useEffect(() => {
+    const onMsg = (e) => {
+      const t = e?.data?.type;
+      if (t === '__activate_edit_mode') setOpen(true);
+      else if (t === '__deactivate_edit_mode') setOpen(false);
+    };
+    window.addEventListener('message', onMsg);
+    window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    return () => window.removeEventListener('message', onMsg);
+  }, []);
+
+  const dismiss = () => {
+    setOpen(false);
+    window.parent.postMessage({ type: '__edit_mode_dismissed' }, '*');
+  };
+
+  const onDragStart = (e) => {
+    const panel = dragRef.current;
+    if (!panel) return;
+    const r = panel.getBoundingClientRect();
+    const sx = e.clientX;
+    const startRight = window.innerWidth - r.right;
+    const startBottom = window.innerHeight - r.bottom;
+    const move = (ev) => {
+      offsetRef.current = { x: startRight - (ev.clientX - sx), y: startBottom - (ev.clientY - e.clientY) };
+      clampToViewport();
+    };
+    const up = () => { window.removeEventListener('mousemove', move); window.removeEventListener('mouseup', up); };
+    window.addEventListener('mousemove', move);
+    window.addEventListener('mouseup', up);
+  };
+
+  if (!open) return null;
+  return (
+    <>
+      <style>{__TWEAKS_STYLE}</style>
+      <div ref={dragRef} className="twk-panel"
+           style={{ right: offsetRef.current.x, bottom: offsetRef.current.y }}>
+        <div className="twk-hd" onMouseDown={onDragStart}>
+          <b>{title}</b>
+          <button className="twk-x" aria-label="Close tweaks"
+                  onMouseDown={(e) => e.stopPropagation()} onClick={dismiss}>✕</button>
+        </div>
+        <div className="twk-body">{children}</div>
+      </div>
+    </>
+  );
+}
+
+function TweakSection({ label, children }) {
+  return (<><div className="twk-sect">{label}</div>{children}</>);
+}
+function TweakRow({ label, value, children, inline = false }) {
+  return (
+    <div className={inline ? 'twk-row twk-row-h' : 'twk-row'}>
+      <div className="twk-lbl">
+        <span>{label}</span>
+        {value != null && <span className="twk-val">{value}</span>}
+      </div>
+      {children}
+    </div>
+  );
+}
+function TweakText({ label, value, placeholder, onChange }) {
+  return (
+    <TweakRow label={label}>
+      <input className="twk-field" type="text" value={value} placeholder={placeholder}
+             onChange={(e) => onChange(e.target.value)} />
+    </TweakRow>
+  );
+}
+function TweakSelect({ label, value, options, onChange }) {
+  return (
+    <TweakRow label={label}>
+      <select className="twk-field" value={value} onChange={(e) => onChange(e.target.value)}>
+        {options.map((o) => {
+          const v = typeof o === 'object' ? o.value : o;
+          const l = typeof o === 'object' ? o.label : o;
+          return <option key={v} value={v}>{l}</option>;
+        })}
+      </select>
+    </TweakRow>
+  );
+}
+function TweakRadio({ label, value, options, onChange }) {
+  const trackRef = React.useRef(null);
+  const [dragging, setDragging] = React.useState(false);
+  const valueRef = React.useRef(value);
+  valueRef.current = value;
+  const opts = options.map((o) => (typeof o === 'object' ? o : { value: o, label: o }));
+  const idx = Math.max(0, opts.findIndex((o) => o.value === value));
+  const n = opts.length;
+  const segAt = (clientX) => {
+    const r = trackRef.current.getBoundingClientRect();
+    const i = Math.floor(((clientX - r.left - 2) / (r.width - 4)) * n);
+    return opts[Math.max(0, Math.min(n - 1, i))].value;
+  };
+  const onPointerDown = (e) => {
+    setDragging(true);
+    const v0 = segAt(e.clientX);
+    if (v0 !== valueRef.current) onChange(v0);
+    const move = (ev) => { if (!trackRef.current) return; const v = segAt(ev.clientX); if (v !== valueRef.current) onChange(v); };
+    const up = () => { setDragging(false); window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); };
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up);
+  };
+  return (
+    <TweakRow label={label}>
+      <div ref={trackRef} role="radiogroup" onPointerDown={onPointerDown}
+           className={dragging ? 'twk-seg dragging' : 'twk-seg'}>
+        <div className="twk-seg-thumb"
+             style={{ left: `calc(2px + ${idx} * (100% - 4px) / ${n})`, width: `calc((100% - 4px) / ${n})` }} />
+        {opts.map((o) => (
+          <button key={o.value} type="button" role="radio" aria-checked={o.value === value}>{o.label}</button>
+        ))}
+      </div>
+    </TweakRow>
+  );
+}
+function TweakToggle({ label, value, onChange }) {
+  return (
+    <div className="twk-row twk-row-h">
+      <div className="twk-lbl"><span>{label}</span></div>
+      <button type="button" className="twk-toggle" data-on={value ? '1' : '0'}
+              role="switch" aria-checked={!!value} onClick={() => onChange(!value)}><i /></button>
+    </div>
+  );
+}
+function TweakButton({ label, onClick, secondary = false }) {
+  return (
+    <button type="button" className={secondary ? 'twk-btn secondary' : 'twk-btn'} onClick={onClick}>{label}</button>
+  );
+}
+
+Object.assign(window, { useTweaks, TweaksPanel, TweakSection, TweakRow, TweakText, TweakSelect, TweakRadio, TweakToggle, TweakButton });
+  </script>
+
+  <!-- ornaments -->
+  <script type="text/babel">
+function CornerFloral({ className = "" }) {
+  return (
+    <svg className={className} viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="var(--gold)" strokeLinecap="round" strokeLinejoin="round" fill="none">
+        <path d="M0 60 Q 40 50, 70 70 T 140 90 Q 180 100, 210 80" strokeWidth="0.9" opacity="0.85" />
+        <path d="M0 30 Q 30 20, 60 32 T 120 50" strokeWidth="0.6" opacity="0.55" />
+        <path d="M30 0 Q 40 30, 70 50 T 130 100 Q 150 130, 160 170" strokeWidth="0.9" opacity="0.85" />
+        <path d="M60 0 Q 70 24, 92 40 T 130 80" strokeWidth="0.6" opacity="0.55" />
+        <g strokeWidth="0.7" opacity="0.78" fill="var(--gold-soft)" fillOpacity="0.18">
+          <path d="M55 75 q -10 -14, 6 -22 q 16 -2, 14 14 q -2 14, -20 8 z" />
+          <path d="M105 95 q -8 -16, 10 -22 q 16 0, 12 16 q -4 14, -22 6 z" />
+          <path d="M75 35 q 4 -16, 22 -10 q 10 8, 0 20 q -12 8, -22 -10 z" />
+          <path d="M120 60 q 6 -14, 22 -8 q 8 10, -2 20 q -12 6, -20 -12 z" />
+          <path d="M40 110 q -4 -16, 14 -18 q 14 2, 8 18 q -8 12, -22 0 z" />
+        </g>
+        <g strokeWidth="0.7" opacity="0.85">
+          <g transform="translate(160 90)">
+            <circle r="9" fill="var(--blush)" fillOpacity="0.45" stroke="var(--maroon-soft)" strokeWidth="0.5" />
+            <path d="M -5 -1 q 4 -6, 10 -1 q 0 5, -4 6 q -6 1, -6 -5 z" stroke="var(--maroon-soft)" strokeWidth="0.5" fill="none" />
+            <path d="M -3 3 q 6 -2, 8 2" stroke="var(--maroon-soft)" strokeWidth="0.5" fill="none" />
+          </g>
+          <g transform="translate(28 105)">
+            <circle r="7" fill="var(--blush)" fillOpacity="0.4" stroke="var(--maroon-soft)" strokeWidth="0.5" />
+            <path d="M -4 -1 q 3 -5, 8 -1 q 0 4, -3 5 q -5 1, -5 -4 z" stroke="var(--maroon-soft)" strokeWidth="0.5" fill="none" />
+          </g>
+          <g transform="translate(140 160)">
+            <circle r="6" fill="var(--blush)" fillOpacity="0.4" stroke="var(--maroon-soft)" strokeWidth="0.5" />
+          </g>
+        </g>
+        <g stroke="var(--gold)" strokeWidth="0.5" opacity="0.7">
+          <path d="M180 40 l 0 6 M177 43 l 6 0" />
+          <path d="M210 130 l 0 4 M208 132 l 4 0" />
+          <path d="M50 150 l 0 4 M48 152 l 4 0" />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+function Fleuron({ size = 22, className = "" }) {
+  return (
+    <svg className={className} width={size} height={size * 0.5} viewBox="0 0 44 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round">
+        <path d="M2 11 L 14 11" /><path d="M30 11 L 42 11" />
+        <path d="M22 4 L 18 11 L 22 18 L 26 11 Z" />
+        <circle cx="22" cy="11" r="1.4" fill="currentColor" />
+      </g>
+    </svg>
+  );
+}
+
+function Divider({ width = 240 }) {
+  return (
+    <div className="ornament" style={{ color: "var(--gold)" }}>
+      <span className="rule" style={{ flexBasis: width / 2 }}></span>
+      <Fleuron size={26} />
+      <span className="rule" style={{ flexBasis: width / 2 }}></span>
+    </div>
+  );
+}
+
+function MonogramCrest({ className = "" }) {
+  return (
+    <svg className={className} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="currentColor" strokeWidth="0.8" strokeLinecap="round" fill="none">
+        <path d="M32 8 q -16 4, -20 22 q -2 14, 8 22" opacity="0.85" />
+        <path d="M32 8 q 16 4, 20 22 q 2 14, -8 22" opacity="0.85" />
+        <path d="M14 22 q 4 -2, 6 2 q 0 4, -4 4 q -4 -2, -2 -6 z" opacity="0.7" />
+        <path d="M50 22 q -4 -2, -6 2 q 0 4, 4 4 q 4 -2, 2 -6 z" opacity="0.7" />
+        <path d="M10 36 q 5 -1, 6 4 q -1 4, -5 3 q -4 -2, -1 -7 z" opacity="0.7" />
+        <path d="M54 36 q -5 -1, -6 4 q 1 4, 5 3 q 4 -2, 1 -7 z" opacity="0.7" />
+        <path d="M20 52 q 4 0, 5 4" opacity="0.7" />
+        <path d="M44 52 q -4 0, -5 4" opacity="0.7" />
+      </g>
+      <g fill="currentColor" opacity="0.9">
+        <circle cx="32" cy="34" r="1.6" />
+        <path d="M32 26 l 0 4 M28 30 l 8 0 M30 34 l 4 0" stroke="currentColor" strokeWidth="0.7" fill="none" strokeLinecap="round" />
+      </g>
+    </svg>
+  );
+}
+
+function GiftOrnament({ className = "" }) {
+  return (
+    <svg className={className} viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="currentColor" strokeWidth="0.8" strokeLinecap="round" fill="none">
+        <path d="M4 16 L 32 16" opacity="0.7" /><path d="M48 16 L 76 16" opacity="0.7" />
+        <path d="M40 6 q -6 6, 0 12 q 6 -6, 0 -12 z" />
+        <path d="M40 26 q -6 -6, 0 -12 q 6 6, 0 12 z" />
+        <circle cx="40" cy="16" r="1.4" fill="currentColor" />
+      </g>
+    </svg>
+  );
+}
+
+function IconCalendar() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3.5" y="6" width="21" height="18" rx="0.5" />
+      <path d="M3.5 11 L 24.5 11" /><path d="M9 3.5 L 9 8.5 M19 3.5 L 19 8.5" />
+      <circle cx="9" cy="16" r="0.8" fill="currentColor" /><circle cx="14" cy="16" r="0.8" fill="currentColor" />
+      <circle cx="19" cy="16" r="0.8" fill="currentColor" /><circle cx="9" cy="20" r="0.8" fill="currentColor" />
+      <circle cx="14" cy="20" r="0.8" fill="currentColor" />
+    </svg>
+  );
+}
+function IconLocation() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M14 25 C 6 17, 6 11, 14 5 C 22 11, 22 17, 14 25 Z" />
+      <circle cx="14" cy="12" r="3" />
+    </svg>
+  );
+}
+function IconDress() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M10 4 L 14 8 L 18 4" />
+      <path d="M10 4 L 6 14 L 9 14 L 7 24 L 21 24 L 19 14 L 22 14 L 18 4" />
+      <path d="M14 8 L 14 24" opacity="0.4" />
+    </svg>
+  );
+}
+function IconBed() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M3 22 L 3 10 L 25 10 L 25 22" /><path d="M3 16 L 25 16" /><path d="M9 16 L 9 10" />
+      <circle cx="11" cy="13" r="1.4" />
+    </svg>
+  );
+}
+
+Object.assign(window, { CornerFloral, Fleuron, Divider, MonogramCrest, GiftOrnament, IconCalendar, IconLocation, IconDress, IconBed });
+  </script>
+
+  <!-- rsvp -->
+  <script type="text/babel">
+// Paste your Google Apps Script deployment URL here:
+const SHEETS_URL = "https://script.google.com/macros/s/AKfycbwkKSLcchNL4CnWhpSMb7XUl_QbSJeV3gwjTPsq5IiO4xu-3R3hDc17Tpwk_E3Dn55rUw/exec";
+
+function submitToSheets(data) {
+  if (!SHEETS_URL || SHEETS_URL === "YOUR_APPS_SCRIPT_URL_HERE") return;
+  const body = new URLSearchParams({
+    name: data.name,
+    attending: data.attending,
+    adults: data.adults || 0,
+    kids: data.kids || 0,
+    note: data.note || ""
+  });
+  fetch(SHEETS_URL, { method: "POST", mode: "no-cors", body }).catch(() => {});
+}
+
+const RSVP_STORE_KEY = "rsvp.v1";
+function loadRsvp() { try { const raw = localStorage.getItem(RSVP_STORE_KEY); return raw ? JSON.parse(raw) : null; } catch (e) { return null; } }
+function saveRsvp(data) { try { localStorage.setItem(RSVP_STORE_KEY, JSON.stringify(data)); } catch (e) {} }
+function clearRsvp() { try { localStorage.removeItem(RSVP_STORE_KEY); } catch (e) {} }
+
+function ProgressDots({ total, current }) {
+  return (
+    <div className="rsvp__progress" aria-hidden="true">
+      {Array.from({ length: total }).map((_, i) => (
+        <span key={i} className={"step " + (i === current ? "active" : i < current ? "done" : "")} />
+      ))}
+    </div>
+  );
+}
+
+function StepName({ value, onChange, onNext }) {
+  const canProceed = value.trim().length >= 2;
+  return (
+    <div className="fade-in" style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+      <div className="step-q">
+        <div className="step-q__eyebrow">A favour to ask</div>
+        <h3 className="step-q__title">May we know your name?</h3>
+        <p className="step-q__sub">As you would like it to appear on your place card.</p>
+      </div>
+      <div className="field">
+        <input type="text" autoComplete="name" placeholder="Your full name"
+               value={value} onChange={(e) => onChange(e.target.value)}
+               onKeyDown={(e) => { if (e.key === "Enter" && canProceed) onNext(); }} />
+      </div>
+      <div style={{ flex: 1 }}></div>
+    </div>
+  );
+}
+
+function StepAttending({ value, onChange }) {
+  return (
+    <div className="fade-in" style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+      <div className="step-q">
+        <div className="step-q__eyebrow">Kindly respond</div>
+        <h3 className="step-q__title">Will you be joining us?</h3>
+        <p className="step-q__sub">We so hope you can.</p>
+      </div>
+      <div className="choice-row">
+        <button type="button" className={"choice" + (value === "yes" ? " selected" : "")} onClick={() => onChange("yes")}>
+          <span className="choice__head">Joyfully accepts</span>
+          <span className="choice__sub">Yes, with pleasure</span>
+        </button>
+        <button type="button" className={"choice" + (value === "no" ? " selected" : "")} onClick={() => onChange("no")}>
+          <span className="choice__head">Regretfully declines</span>
+          <span className="choice__sub">Unable to attend</span>
+        </button>
+      </div>
+      <div style={{ flex: 1 }}></div>
+    </div>
+  );
+}
+
+function PartyCounter({ label, sub, value, onChange, min = 0, max = 8 }) {
+  return (
+    <div className="party-counter">
+      <div className="party-counter__lbl">{label}</div>
+      <div className="counter">
+        <button type="button" className="counter__btn" onClick={() => onChange(Math.max(min, value - 1))} disabled={value <= min} aria-label={"Fewer " + label}>−</button>
+        <div className="counter__num">{value}</div>
+        <button type="button" className="counter__btn" onClick={() => onChange(Math.min(max, value + 1))} disabled={value >= max} aria-label={"More " + label}>+</button>
+      </div>
+      <div className="party-counter__sub">{sub}</div>
+    </div>
+  );
+}
+
+function StepGuests({ adults, kids, onAdults, onKids }) {
+  const total = adults + kids;
+  return (
+    <div className="fade-in" style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+      <div className="step-q">
+        <div className="step-q__eyebrow">Your party</div>
+        <h3 className="step-q__title">How many will be joining?</h3>
+        <p className="step-q__sub">So we may set the right number of places.</p>
+      </div>
+      <div className="party-row">
+        <PartyCounter label="Adults" sub="Ages 12 & up" value={adults} min={1} onChange={onAdults} />
+        <div className="party-row__div" aria-hidden="true"></div>
+        <PartyCounter label="Children" sub="Ages 0 – 11" value={kids} min={0} onChange={onKids} />
+      </div>
+      <div className="party-total">Party of <b>{total}</b></div>
+      <div style={{ flex: 1 }}></div>
+    </div>
+  );
+}
+
+function StepNote({ value, onChange }) {
+  return (
+    <div className="fade-in" style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+      <div className="step-q">
+        <div className="step-q__eyebrow">A few words</div>
+        <h3 className="step-q__title">A note to the couple</h3>
+        <p className="step-q__sub">Optional — a wish, a memory, a blessing.</p>
+      </div>
+      <div className="field">
+        <textarea rows={4} maxLength={400} placeholder="Your message…" value={value} onChange={(e) => onChange(e.target.value)} />
+        <div className="field__hint">{value.length}/400</div>
+      </div>
+      <div style={{ flex: 1 }}></div>
+    </div>
+  );
+}
+
+function Confirmation({ data, onEdit, formattedDate }) {
+  const attending = data.attending === "yes";
+  const total = (data.adults || 0) + (data.kids || 0);
+  const partySummary = `${data.adults} ${data.adults === 1 ? "adult" : "adults"}` +
+                       (data.kids > 0 ? ` & ${data.kids} ${data.kids === 1 ? "child" : "children"}` : "");
+  return (
+    <div className="confirm fade-in">
+      <div className="confirm__crest"><MonogramCrest /></div>
+      <h3 className="confirm__title">{attending ? "Thank you — we cannot wait to see you." : "Thank you for letting us know."}</h3>
+      <p className="confirm__body">
+        {attending
+          ? <>Your reply has been received{data.name ? <>, <b style={{color:"var(--maroon)"}}>{data.name.split(" ")[0]}</b></> : ""}. A place will be set for {total} on {formattedDate}.</>
+          : <>We will miss you dearly, {data.name ? data.name.split(" ")[0] : "friend"}. Thank you for taking a moment to respond.</>}
+      </p>
+      <div className="confirm__details">
+        <div><b>Name:</b> {data.name}</div>
+        <div><b>Reply:</b> {attending ? `Joyfully accepts · ${partySummary}` : "Regretfully declines"}</div>
+        {data.note ? <div style={{ maxWidth: 360, fontStyle: "italic" }}><b>Note:</b> "{data.note}"</div> : null}
+      </div>
+      <div><button type="button" className="btn btn--ghost" onClick={onEdit}>Edit my reply</button></div>
+    </div>
+  );
+}
+
+function Rsvp({ formattedDate }) {
+  const existing = React.useMemo(() => loadRsvp(), []);
+  const [submitted, setSubmitted] = React.useState(!!existing);
+  const [data, setData] = React.useState(existing || { name: "", attending: "", adults: 2, kids: 0, note: "" });
+  const [step, setStep] = React.useState(0);
+  const set = (k, v) => setData(d => ({ ...d, [k]: v }));
+
+  const steps = React.useMemo(() => {
+    const base = ["name", "attending"];
+    if (data.attending === "yes") base.push("guests");
+    base.push("note");
+    return base;
+  }, [data.attending]);
+
+  const currentKey = steps[step];
+  const canNext = () => {
+    if (currentKey === "name") return data.name.trim().length >= 2;
+    if (currentKey === "attending") return data.attending === "yes" || data.attending === "no";
+    if (currentKey === "guests") return data.adults >= 1;
+    return true;
+  };
+  const next = () => {
+    if (!canNext()) return;
+    if (step < steps.length - 1) setStep(step + 1);
+    else { saveRsvp(data); submitToSheets(data); setSubmitted(true); }
+  };
+  const back = () => { if (step > 0) setStep(step - 1); };
+
+  if (submitted) {
+    return <div className="rsvp"><Confirmation data={data} onEdit={() => { setSubmitted(false); setStep(0); }} formattedDate={formattedDate} /></div>;
+  }
+
+  return (
+    <div className="rsvp">
+      <ProgressDots total={steps.length} current={step} />
+      <div className="rsvp__stage" key={currentKey}>
+        {currentKey === "name" && <StepName value={data.name} onChange={(v) => set("name", v)} onNext={next} />}
+        {currentKey === "attending" && <StepAttending value={data.attending} onChange={(v) => set("attending", v)} />}
+        {currentKey === "guests" && <StepGuests adults={data.adults} kids={data.kids} onAdults={(v) => set("adults", v)} onKids={(v) => set("kids", v)} />}
+        {currentKey === "note" && <StepNote value={data.note} onChange={(v) => set("note", v)} />}
+      </div>
+      <div className="rsvp__nav">
+        <button type="button" className="btn btn--ghost" onClick={back} disabled={step === 0}
+                style={{ visibility: step === 0 ? "hidden" : "visible" }}>← Back</button>
+        <button type="button" className="btn" onClick={next} disabled={!canNext()}>
+          {step === steps.length - 1 ? "Send reply" : "Continue →"}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Rsvp, clearRsvp });
+  </script>
+
+  <!-- app -->
+  <script type="text/babel">
+const CONFIG = {
+  "husbandFirst": "Lucas",
+  "wifeFirst": "Euphodia",
+  "surname": "Sekgwama",
+  "eventDateISO": "2026-08-01T11:00:00+02:00",
+  "venueName": "Mokganya View Guest House",
+  "venueLine1": "Stand No. C1771, Mogaladi Park",
+  "venueLine2": "Mankweng, Turfloop, 0727",
+  "mapsQuery": "Mokganya View Guest House Mankweng Turfloop",
+  "rsvpName1": "Mokgadi",
+  "rsvpPhone1": "083 400 5914",
+  "rsvpName2": "Olerato",
+  "rsvpPhone2": "082 418 5682",
+  "palette": "maroon",
+  "script": "italianno"
+};
+
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const DAYS   = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+function formatLongDate(iso) {
+  const d = new Date(iso);
+  const day = DAYS[d.getDay()], date = d.getDate(), month = MONTHS[d.getMonth()], year = d.getFullYear();
+  let h = d.getHours(); const m = d.getMinutes();
+  const ampm = h >= 12 ? "p.m." : "a.m."; h = h % 12 || 12;
+  const time = m === 0 ? `${h} ${ampm}` : `${h}:${String(m).padStart(2,"0")} ${ampm}`;
+  return { full: `${day}, ${date} ${month} ${year}`, time, day, date, month, year };
+}
+
+function useCountdown(iso) {
+  const target = React.useMemo(() => new Date(iso).getTime(), [iso]);
+  const compute = () => {
+    const diff = Math.max(0, target - Date.now());
+    return { days: Math.floor(diff/86400000), hours: Math.floor((diff%86400000)/3600000), mins: Math.floor((diff%3600000)/60000), secs: Math.floor((diff%60000)/1000), done: diff<=0 };
+  };
+  const [t, setT] = React.useState(compute);
+  React.useEffect(() => { const id = setInterval(() => setT(compute()), 1000); return () => clearInterval(id); }, [target]);
+  return t;
+}
+
+function SectionOrnament({ small = false }) {
+  return (
+    <div className="section-orn" aria-hidden="true">
+      <span className="rule"></span>
+      <span className={"section-orn__diamond" + (small ? " section-orn__diamond--small" : "")}></span>
+      <Fleuron size={28} />
+      <span className={"section-orn__diamond" + (small ? " section-orn__diamond--small" : "")}></span>
+      <span className="rule"></span>
+    </div>
+  );
+}
+
+function Hero({ tweaks, dateInfo }) {
+  const cd = useCountdown(tweaks.eventDateISO);
+  return (
+    <section className="hero">
+      <CornerFloral className="hero__corner hero__corner--tl" />
+      <CornerFloral className="hero__corner hero__corner--br" />
+      <div className="hero__watermark" aria-hidden="true">Together</div>
+      <div className="hero__inner">
+        <div className="eyebrow hero__eyebrow">You are warmly invited</div>
+        <h1 className="hero__names script">
+          {tweaks.husbandFirst}{" "}<span className="hero__amp">&amp;</span>{" "}{tweaks.wifeFirst}
+        </h1>
+        <p className="hero__lede">Together with their family, we honour a milestone of love, legacy &amp; family — and warmly request the pleasure of your company.</p>
+        <Divider width={220} />
+        <div className="hero__occasion">
+          <div className="hero__occasion-row">
+            <span>52 Years of Marriage</span>
+            <span className="dot"></span>
+            <span>75th &amp; 80th Birthdays</span>
+          </div>
+          <div className="hero__date">{dateInfo.full} &nbsp;·&nbsp; {dateInfo.time}</div>
+        </div>
+        <div className="countdown" aria-label="Countdown to the celebration">
+          {[["Days", cd.days], ["Hours", cd.hours], ["Minutes", cd.mins], ["Seconds", cd.secs]].map(([lbl, val]) => (
+            <div key={lbl} className="countdown__cell">
+              <div className="countdown__num">{String(val).padStart(2,"0")}</div>
+              <div className="countdown__lbl">{lbl}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Details({ tweaks, dateInfo }) {
+  return (
+    <section className="section">
+      <div className="sec-head">
+        <div className="eyebrow sec-head__eyebrow">The particulars</div>
+        <h2 className="sec-head__title">Of the celebration</h2>
+      </div>
+      <div className="details">
+        <CornerFloral className="card-corner card-corner--tl" />
+        <CornerFloral className="card-corner card-corner--br" />
+        <div className="details__cell">
+          <div className="details__icon"><IconCalendar /></div>
+          <div className="details__label">When</div>
+          <div className="details__value">{dateInfo.day}<br />{dateInfo.date} {dateInfo.month} {dateInfo.year}</div>
+          <div className="details__note">Reception begins at {dateInfo.time}</div>
+        </div>
+        <div className="details__cell">
+          <div className="details__icon"><IconLocation /></div>
+          <div className="details__label">Where</div>
+          <div className="details__value">{tweaks.venueName}<br />{tweaks.venueLine1}</div>
+          <div className="details__note">{tweaks.venueLine2}</div>
+        </div>
+        <div className="details__cell">
+          <div className="details__icon"><IconDress /></div>
+          <div className="details__label">Attire</div>
+          <div className="details__value">Formal</div>
+          <div className="details__note">Champagne · Blush · Maroon<br />Come dressed to impress.</div>
+        </div>
+        <div className="details__cell">
+          <div className="details__icon"><IconBed /></div>
+          <div className="details__label">Where to stay</div>
+          <div className="details__value">Mankweng &amp; Polokwane</div>
+          <div className="details__note">A list of nearby guest houses is available on request — contact the family below.</div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function MapSection({ tweaks }) {
+  const q = encodeURIComponent(tweaks.mapsQuery || `${tweaks.venueName} ${tweaks.venueLine1} ${tweaks.venueLine2}`);
+  const embed = `https://maps.google.com/maps?q=${q}&t=&z=14&ie=UTF8&iwloc=&output=embed`;
+  const link = `https://www.google.com/maps/search/?api=1&query=${q}`;
+  return (
+    <section className="section">
+      <div className="sec-head">
+        <div className="eyebrow sec-head__eyebrow">Finding your way</div>
+        <h2 className="sec-head__title">A map to the venue</h2>
+      </div>
+      <div className="map-card">
+        <CornerFloral className="card-corner card-corner--tr" />
+        <div className="map-card__frame">
+          <iframe title="Venue map" src={embed} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div className="map-card__body">
+          <div className="map-card__title">{tweaks.venueName}</div>
+          <div className="map-card__addr">{tweaks.venueLine1}<br />{tweaks.venueLine2}</div>
+          <a className="map-card__link" href={link} target="_blank" rel="noreferrer">Open in Maps →</a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function RsvpSection({ dateInfo }) {
+  return (
+    <section className="section section--narrow">
+      <div className="sec-head">
+        <div className="eyebrow sec-head__eyebrow">Kindly reply</div>
+        <h2 className="sec-head__title">Will you join us?</h2>
+        <p className="sec-head__sub">A few small questions, with our thanks.</p>
+      </div>
+      <Rsvp formattedDate={dateInfo.full} />
+    </section>
+  );
+}
+
+function GiftNote() {
+  return (
+    <section className="section section--narrow">
+      <div className="gift">
+        <div className="gift__orn"><GiftOrnament /></div>
+        <p className="gift__text">
+          Your presence is, truly, the greatest gift. <br />
+          Should you wish to honour the couple a little further, a small token toward their continued <em>memories</em> would be received with warmth and gratitude.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+function Footer({ tweaks }) {
+  return (
+    <footer className="footer">
+      <Divider width={180} />
+      <div className="footer__names script" style={{ marginTop: 28 }}>{tweaks.husbandFirst} &amp; {tweaks.wifeFirst}</div>
+      <div className="smallcaps" style={{ color: "var(--maroon-soft)", marginBottom: 22 }}>{tweaks.surname}</div>
+      <div className="footer__contact">For any question, kindly contact:</div>
+      <div className="footer__contact" style={{ marginTop: 6 }}>
+        <b>{tweaks.rsvpName1}</b> &nbsp;{tweaks.rsvpPhone1} &nbsp;·&nbsp; <b>{tweaks.rsvpName2}</b> &nbsp;{tweaks.rsvpPhone2}
+      </div>
+      <div style={{ marginTop: 36, fontSize: "0.78rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--ink-soft)" }}>With every joy</div>
+    </footer>
+  );
+}
+
+function App() {
+  const [tweaks, setTweak] = useTweaks(CONFIG);
+  const dateInfo = React.useMemo(() => formatLongDate(tweaks.eventDateISO), [tweaks.eventDateISO]);
+
+  return (
+    <div className="page" data-palette={tweaks.palette} data-script={tweaks.script}>
+      <Hero tweaks={tweaks} dateInfo={dateInfo} />
+      <SectionOrnament />
+      <Details tweaks={tweaks} dateInfo={dateInfo} />
+      <SectionOrnament small />
+      <MapSection tweaks={tweaks} />
+      <SectionOrnament small />
+      <RsvpSection dateInfo={dateInfo} />
+      <SectionOrnament small />
+      <GiftNote />
+      <Footer tweaks={tweaks} />
+
+      <TweaksPanel title="Admin · Invitation">
+        <TweakSection label="Couple" />
+        <TweakText label="Husband" value={tweaks.husbandFirst} onChange={(v) => setTweak('husbandFirst', v)} />
+        <TweakText label="Wife" value={tweaks.wifeFirst} onChange={(v) => setTweak('wifeFirst', v)} />
+        <TweakText label="Surname" value={tweaks.surname} onChange={(v) => setTweak('surname', v)} />
+        <TweakSection label="Date & time" />
+        <TweakText label="Event ISO" value={tweaks.eventDateISO} onChange={(v) => setTweak('eventDateISO', v)} />
+        <div style={{ fontSize: 10, color: "rgba(41,38,27,.55)", marginTop: -4 }}>{dateInfo.full} · {dateInfo.time}</div>
+        <TweakSection label="Venue" />
+        <TweakText label="Name" value={tweaks.venueName} onChange={(v) => setTweak('venueName', v)} />
+        <TweakText label="Address line 1" value={tweaks.venueLine1} onChange={(v) => setTweak('venueLine1', v)} />
+        <TweakText label="Address line 2" value={tweaks.venueLine2} onChange={(v) => setTweak('venueLine2', v)} />
+        <TweakText label="Maps query" value={tweaks.mapsQuery} onChange={(v) => setTweak('mapsQuery', v)} />
+        <TweakSection label="RSVP contacts" />
+        <TweakText label="Contact 1 name" value={tweaks.rsvpName1} onChange={(v) => setTweak('rsvpName1', v)} />
+        <TweakText label="Contact 1 phone" value={tweaks.rsvpPhone1} onChange={(v) => setTweak('rsvpPhone1', v)} />
+        <TweakText label="Contact 2 name" value={tweaks.rsvpName2} onChange={(v) => setTweak('rsvpName2', v)} />
+        <TweakText label="Contact 2 phone" value={tweaks.rsvpPhone2} onChange={(v) => setTweak('rsvpPhone2', v)} />
+        <TweakSection label="Visual variations" />
+        <TweakSelect label="Palette" value={tweaks.palette}
+          options={[{value:'maroon',label:'Warm Maroon'},{value:'cream',label:'Cream'},{value:'blush',label:'Blush'},{value:'ivory',label:'Ivory'}]}
+          onChange={(v) => setTweak('palette', v)} />
+        <TweakRadio label="Script" value={tweaks.script}
+          options={[{value:'italianno',label:'Flowing'},{value:'pinyon',label:'Formal'},{value:'italic',label:'Restrained'}]}
+          onChange={(v) => setTweak('script', v)} />
+        <TweakSection label="Testing" />
+        <TweakButton label="Reset RSVP submission" onClick={() => { clearRsvp(); window.location.reload(); }} />
+      </TweaksPanel>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>
